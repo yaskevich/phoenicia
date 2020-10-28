@@ -1,4 +1,4 @@
-# phoenicia
+# Phoenicia
 Map of Ancient Phoenicia
 
 
