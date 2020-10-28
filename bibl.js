@@ -27,7 +27,7 @@ var isRotate = false;
 
 var osm_attr = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 	
-var wikimedia = L.tileLayer('https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png',
+var wikimedia = L.tileLayer('https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png?apikey=e45dfb59-567d-435c-b152-0ebf4185065e',
 	{ maxZoom: 19, minZoom: 4, attribution: osm_attr, id: 'wm'}
 );
 wikimedia.setOpacity(1)
